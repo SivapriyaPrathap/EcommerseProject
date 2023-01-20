@@ -21,16 +21,26 @@ text_transform : uppercase;
 
 }
 /*** footer ***/
-.my_footer{
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#F0B27A;
+   color :blue;
+
+   text-align: center;
+}
+/***.new_footer{
 background-color:#F0B27A;
 height :60px;
 }
-.my_footer p{
+.new_footer p{
 padding-top:20px;
 font-size: 14px;
 text-align : center;
 color :blue;
-}
+}***/
 /*** category***/
 .my_row_class{
 padding-top:20 px;
